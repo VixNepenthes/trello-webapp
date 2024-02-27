@@ -12,6 +12,9 @@ function BoardContent() {
                 },
                 display: 'flex',
                 alignItems: 'center',
+                bgcolor: (theme) => {
+                    return theme.palette.mode === 'dark' ? '#34495e' : '#1976d2';
+                },
             }}
         >
             Board Content
